@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GENGestion.Core.DTOs
 {
-    internal class Localidades
+    internal class LocalidadesDTO
     {
         public int Id { get; set; }
         public int ProvinciaId { get; set; }

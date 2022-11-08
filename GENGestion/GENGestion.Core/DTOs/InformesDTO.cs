@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GENGestion.Core.DTOs
 {
-    internal class Informes
+    internal class InformesDTO
     {
         public int Id { get; set; }
         public int PacienteId { get; set; }

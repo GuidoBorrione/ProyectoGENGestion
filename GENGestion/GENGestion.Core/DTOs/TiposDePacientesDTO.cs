@@ -3,11 +3,10 @@ using System.Collections.Generic;
 
 namespace GENGestion.Core.DTOs
 {
-    internal class Estudios
+    internal class TiposDePacientesDTO
     {
         public int Id { get; set; }
-        public string DeCodigoEstudio { get; set; }
-        public string DeEstudio { get; set; }
+        public string DeTipoPaciente { get; set; }
 
     }
 }
