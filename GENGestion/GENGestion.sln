@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GENGestion.Core", "GENGestion.Core\GENGestion.Core.csproj", "{E918A036-E95D-420E-8F85-28746A64BEB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GENGestion.Core", "GENGestion.Core\GENGestion.Core.csproj", "{E918A036-E95D-420E-8F85-28746A64BEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GENGestion.Api", "GENGestion.Api\GENGestion.Api.csproj", "{45FFEA4E-238C-4ABA-ACBD-015956BC4CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GENGestion.Api", "GENGestion.Api\GENGestion.Api.csproj", "{45FFEA4E-238C-4ABA-ACBD-015956BC4CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GENGestion.Infrastructure", "GENGestion.Infrastructure\GENGestion.Infrastructure.csproj", "{AF4C30F6-739B-4AF5-8E91-B50A943EAD6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GENGestion.Infrastructure", "GENGestion.Infrastructure\GENGestion.Infrastructure.csproj", "{AF4C30F6-739B-4AF5-8E91-B50A943EAD6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

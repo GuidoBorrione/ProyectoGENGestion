@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GENGestion.Infrastructure.Data
+namespace GENGestion.Core.Entities
 {
     public partial class Medicos
     {
