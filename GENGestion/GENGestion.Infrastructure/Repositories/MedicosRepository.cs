@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GENGestion.Core.Interfaces;
+using GENGestion.Core.Entities;
 
 namespace GENGestion.Core.Interfaces
 {
-    internal class MedicosRepository
+    public interface MedicosRepository : IGeneric<Medicos>
     {
+        string GetNombreMedicoAsync(int id);
     }
 }

@@ -8,3 +8,13 @@ C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Core\obj
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.csproj.CoreCompileInputs.cache
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.dll
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.pdb
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\bin\Debug\netstandard2.1\GENGestion.Core.deps.json
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\bin\Debug\netstandard2.1\GENGestion.Core.dll
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\bin\Debug\netstandard2.1\GENGestion.Core.pdb
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.csproj.AssemblyReference.cache
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.AssemblyInfoInputs.cache
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.AssemblyInfo.cs
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.csproj.CoreCompileInputs.cache
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.dll
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Core\obj\Debug\netstandard2.1\GENGestion.Core.pdb

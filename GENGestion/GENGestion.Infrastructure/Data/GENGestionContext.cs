@@ -1,4 +1,6 @@
 ﻿using System;
+using GENGestion.Core.Entities;
+using GENGestion.Infrastructure.Data.configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -243,27 +245,7 @@ namespace GENGestion.Infrastructure.Data
                     .HasConstraintName("FK_InformePaciente");
             });
 
-            modelBuilder.Entity<Localidades>(entity =>
-            {
-                entity.HasKey(e => e.Id)
-                    .IsClustered(false);
-
-                entity.Property(e => e.Id)
-                    .HasColumnName("ID")
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.DeCdPostal).HasMaxLength(9);
-
-                entity.Property(e => e.DeLocalidad).HasMaxLength(100);
-
-                entity.Property(e => e.ProvinciaId).HasColumnName("ProvinciaID");
-
-                entity.HasOne(d => d.Provincia)
-                    .WithMany(p => p.Localidades)
-                    .HasForeignKey(d => d.ProvinciaId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_ProvinciasLocalidad");
-            });
+            modelBuilder.ApplyConfiguration<Localidades>(new LocalidadConfiguration());
 
             modelBuilder.Entity<Medicaciones>(entity =>
             {
@@ -277,70 +259,7 @@ namespace GENGestion.Infrastructure.Data
                     .HasMaxLength(100);
             });
 
-            modelBuilder.Entity<Medicos>(entity =>
-            {
-                entity.HasKey(e => e.Id)
-                    .IsClustered(false);
-
-                entity.Property(e => e.Id).HasColumnName("ID");
-
-                entity.Property(e => e.DeApellido)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeCelular)
-                    .IsRequired()
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.DeDomicilio)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeEmail)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeNombre)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeNumeroAfiliado)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeOcupacion)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeSexo)
-                    .IsRequired()
-                    .HasMaxLength(1);
-
-                entity.Property(e => e.DeTelefono)
-                    .IsRequired()
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.DeTipoDocumento)
-                    .IsRequired()
-                    .HasMaxLength(3)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.FeAlta).HasColumnType("datetime");
-
-                entity.Property(e => e.FeNacimiento).HasColumnType("datetime");
-
-                entity.Property(e => e.LocalidadId).HasColumnName("LocalidadID");
-
-                entity.Property(e => e.NuMatricula)
-                    .IsRequired()
-                    .HasMaxLength(10);
-
-                entity.HasOne(d => d.Localidad)
-                    .WithMany(p => p.Medicos)
-                    .HasForeignKey(d => d.LocalidadId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_MedicoLocalidad");
-            });
+            modelBuilder.ApplyConfiguration<Medicos>(new MedicosConfiguration());
 
             modelBuilder.Entity<ObrasSociales>(entity =>
             {
@@ -358,82 +277,7 @@ namespace GENGestion.Infrastructure.Data
                     .HasMaxLength(100);
             });
 
-            modelBuilder.Entity<Pacientes>(entity =>
-            {
-                entity.HasKey(e => e.Id)
-                    .IsClustered(false);
-
-                entity.Property(e => e.Id).HasColumnName("ID");
-
-                entity.Property(e => e.DeApellido)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeCelular)
-                    .IsRequired()
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.DeDomicilio)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeEmail)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeNombre)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeNumeroAfiliado)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeOcupacion)
-                    .IsRequired()
-                    .HasMaxLength(100);
-
-                entity.Property(e => e.DeSexo)
-                    .IsRequired()
-                    .HasMaxLength(1);
-
-                entity.Property(e => e.DeTelefono)
-                    .IsRequired()
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.DeTipoDocumento)
-                    .IsRequired()
-                    .HasMaxLength(3)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.FeAlta).HasColumnType("datetime");
-
-                entity.Property(e => e.FeNacimiento).HasColumnType("datetime");
-
-                entity.Property(e => e.LocalidadId).HasColumnName("LocalidadID");
-
-                entity.Property(e => e.ObraSocialId).HasColumnName("ObraSocialID");
-
-                entity.Property(e => e.TipoPacienteId).HasColumnName("TipoPacienteID");
-
-                entity.HasOne(d => d.Localidad)
-                    .WithMany(p => p.Pacientes)
-                    .HasForeignKey(d => d.LocalidadId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_PacienteLocalidad");
-
-                entity.HasOne(d => d.ObraSocial)
-                    .WithMany(p => p.Pacientes)
-                    .HasForeignKey(d => d.ObraSocialId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_PacienteObraSocial");
-
-                entity.HasOne(d => d.TipoPaciente)
-                    .WithMany(p => p.Pacientes)
-                    .HasForeignKey(d => d.TipoPacienteId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_PacienteTipoPaciente");
-            });
+            modelBuilder.ApplyConfiguration<Pacientes>(new PacientesConfiguration());   
 
             modelBuilder.Entity<Provincias>(entity =>
             {

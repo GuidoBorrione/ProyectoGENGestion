@@ -8,19 +8,24 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\borrione\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
+      "projectUniqueName": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
       "projectName": "GENGestion.Core",
-      "projectPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
-      "packagesPath": "C:\\Users\\borrione\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\obj\\",
+      "projectPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\borrione\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace GENGestion.Core.Interfaces
 {
-    public interface IMedicosRepository
+    public interface IMedicosRepository : IGeneric<Medicos>
     {
-        public string GetNombreMedicos();
+        public string GetNombreMedicos(int id);
 
         Task<IEnumerable<Medicos>> GetMedicos();
     }

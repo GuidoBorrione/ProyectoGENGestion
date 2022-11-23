@@ -11,3 +11,5 @@ C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Infrastr
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Infrastructure\bin\Debug\netstandard2.1\GENGestion.Core.dll
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Infrastructure\bin\Debug\netstandard2.1\GENGestion.Core.pdb
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Infrastructure\obj\Debug\netstandard2.1\GENGestion.Infrastructure.csproj.CopyComplete
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Infrastructure\obj\Debug\netstandard2.1\GENGestion.Infrastructure.dll
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Infrastructure\obj\Debug\netstandard2.1\GENGestion.Infrastructure.pdb

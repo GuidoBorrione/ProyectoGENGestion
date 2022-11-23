@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj": {}
+    "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj": {
+    "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
+        "projectUniqueName": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
         "projectName": "GENGestion.Core",
-        "projectPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
-        "packagesPath": "C:\\Users\\borrione\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\obj\\",
+        "projectPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\borrione\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +58,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj": {
+    "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj",
+        "projectUniqueName": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj",
         "projectName": "GENGestion.Infrastructure",
-        "projectPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\borrione\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\obj\\",
+        "projectPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\GENGestion.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\borrione\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +90,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj": {
-                "projectPath": "C:\\Users\\borrione\\source\\repos\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj"
+              "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj": {
+                "projectPath": "D:\\desarrollo\\GEN\\ProyectoGENGestion\\GENGestion\\GENGestion.Core\\GENGestion.Core.csproj"
               }
             }
           }
@@ -124,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

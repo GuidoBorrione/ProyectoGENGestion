@@ -50,3 +50,6 @@ C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Api\bin\
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Api\bin\Debug\net6.0\GENGestion.Infrastructure.dll
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Api\bin\Debug\net6.0\GENGestion.Core.pdb
 C:\Users\borrione\source\repos\ProyectoGENGestion\GENGestion\GENGestion.Api\bin\Debug\net6.0\GENGestion.Infrastructure.pdb
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Api\obj\Debug\net6.0\GENGestion.Api.dll
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Api\obj\Debug\net6.0\refint\GENGestion.Api.dll
+D:\desarrollo\GEN\ProyectoGENGestion\GENGestion\GENGestion.Api\obj\Debug\net6.0\GENGestion.Api.pdb
